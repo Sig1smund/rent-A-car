@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkrent_A_car=self.webpackChunkrent_A_car||[]).push([[866],{5866:function(n,e,r){r.r(e),r.d(e,{default:function(){return a}});var t=r(1087),c="notFound_container__u7T0X",s=r(3329);function a(){return(0,s.jsx)("div",{className:c,children:(0,s.jsxs)("p",{children:["Oops... nothing here, lets go back ",(0,s.jsx)(t.rU,{to:"/",children:"to main page"})]})})}}}]);
+//# sourceMappingURL=866.df1d0dcb.chunk.js.map
