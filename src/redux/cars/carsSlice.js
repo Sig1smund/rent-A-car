@@ -9,10 +9,19 @@ const initialState = {
   error: null,
 };
 
+const setFavorite = (state, { payload }) => {
+  const favsId = [...state.favorite].map((car) => car.id);
+  if (favsId.includes(payload.id)) {
+    state.favorite = state.favorite.filter((car) => car.id !== payload.id);
+  } else {
+    state.favorite = [payload, ...state.favorite];
+  }
+};
+
 const carsSlice = createSlice({
   name: "cars",
   initialState,
-  reducers: {},
+  reducers: { manageFavs: setFavorite },
   extraReducers: (builder) =>
     builder
       .addCase(getCars.pending, (state) => {
@@ -29,3 +38,4 @@ const carsSlice = createSlice({
 });
 
 export const carsReducer = carsSlice.reducer;
+export const { manageFavs } = carsSlice.actions;
