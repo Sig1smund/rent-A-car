@@ -42,7 +42,7 @@ export default function CarsItem({ item, favorite }) {
                     </button>
                 </div>
                 <div className={s.general}>
-                    <p className={s.info}>{make} {model}, {year}</p>
+                    <p className={s.info}>{make} <span className={s.model}>{model}</span>, {year}</p>
                     <p className={s.info}>{rentalPrice}</p>
                 </div>
                 <p className={s.additionalInfo}>{address} | {rentalCompany}</p>
