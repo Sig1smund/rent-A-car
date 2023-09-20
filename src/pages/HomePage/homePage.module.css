@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.wrapper {
+    color: tomato;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cursor {
+    font-size: 40px;
+}

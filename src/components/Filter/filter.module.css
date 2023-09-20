@@ -1,0 +1,76 @@
+.container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+.form {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.form:last-child {
+    align-items:flex-end;
+}
+
+.label {
+    color: #8A8A89;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.labelContainer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 18px;
+}
+
+.inputBrand {
+    padding: 14px 18px 14px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    border-radius: 14px;
+    background: #F7F7FB;
+    border: 1px dashed black;
+}
+
+.inputPrice {
+    display: flex;
+    width: 125px;
+    padding: 14px 18px;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 14px;
+    background: #F7F7FB;
+    border: 1px dashed black;
+}
+
+.inputMilage {
+    width: 160px;
+    height: 48px;
+    padding: 14px 24px 14px 24px;
+    border-radius: 14px 0px 0px 14px;
+    border: 1px dashed black;
+    border-right: 1px solid rgba(138, 138, 137, 0.20);
+    background: #F7F7FB;
+}
+
+.inputMilage:last-child {
+    border: 1px dashed black;
+    border-radius: 0px 14px 14px 0px;
+}
+
+.button {
+    padding: 14px 44px;
+    border-radius: 12px;
+    background: #3470FF;
+    border: 1px dashed white;
+    color: white;
+}

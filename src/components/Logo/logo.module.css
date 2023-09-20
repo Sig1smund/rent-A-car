@@ -1,0 +1,10 @@
+.logo {
+    color: tomato;
+    transition: color 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-radius: 50%;
+}
+
+.logo:hover {
+    color: blue;
+    transform: transition;
+}

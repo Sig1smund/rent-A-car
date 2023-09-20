@@ -1,0 +1,99 @@
+.item {
+    position: relative;
+    height: 426px;
+    width: 275px;
+    margin-right: 29px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    transition: box-shadow 250ms ease-in-out;
+}
+
+.item:hover {
+    transform: transition;
+    box-shadow: 3px 8px 14px 0px rgba(116, 177, 232, .24);
+}
+
+.item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.thumb {
+    height: 268px;
+    width: 275px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 14px;
+}
+
+.image {
+    display: block;
+    width: 275px;
+    height: 268px;
+    object-fit: cover;
+}
+
+.general{
+    display: flex;
+}
+
+.info {
+    text-transform: capitalize;
+    color: #121417;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0;
+}
+
+.additionalInfo {
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #12141780;
+}
+
+.info:last-child {
+    margin-left: auto;
+}
+
+.button {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 274px; 
+    height: 44px; 
+    padding: 12px, 99px, 12px, 99px; 
+    border-radius: 12px;
+    border: none;
+    background: #3470FF;
+    color: white;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    transition: background 250ms ease-in-out;
+}
+
+.button:hover {
+    transform: transition;
+    background: #0B44CD;
+}
+
+.favButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+}
